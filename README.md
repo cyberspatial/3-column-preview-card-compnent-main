@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshots/Desktop-1440px.png)
+![](./Screenshots/Despktop-1440px.png)
 ![](./Screenshots/Mobile-375px.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://cyberspatial.github.io/3-column-preview-card-compnent-main/](https://cyberspatial.github.io/3-column-preview-card-compnent-main/)
 
 ## My process
 
