@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/cyberspatial/3-column-preview-card-compnent-main](https://github.com/cyberspatial/3-column-preview-card-compnent-main)
 - Live Site URL: [https://cyberspatial.github.io/3-column-preview-card-compnent-main/](https://cyberspatial.github.io/3-column-preview-card-compnent-main/)
 
 ## My process
