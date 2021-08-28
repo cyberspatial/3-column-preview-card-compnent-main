@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --first-shade: hsl(31, 77%, 52%);
+  --second-shade: hsl(184, 100%, 22%);
+  --third-shade: hsl(179, 100%, 13%);
+  --fourth-shade: hsla(0, 0%, 100%, 0.75);
+  --fifth-shade: hsl(0, 0%, 95%);
+}
+
+body {
+  background-color: var(--fifth-shade);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 350px;
+
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.cartype {
+  width: 100%;
+}
+.description {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.title-heading {
+  font-family: Big Shoulders Display;
+  font-size: 3em;
+  color: var(--fifth-shade);
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+.description-para {
+  color: var(--fourth-shade);
+  font-family: Lexend Deca;
+  font-weight: 400;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+.learn-more {
+  background-color: var(--fifth-shade);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  border-radius: 30px;
+  height: 50px;
+  color: var(--first-shade);
+  font-family: Lexend Deca;
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+.learn-more:hover {
+  background-color: inherit;
+  color: var(--fifth-shade);
+  border: 2px var(--fifth-shade) solid;
+  cursor: pointer;
+}
+
+.sedan {
+  background-color: var(--first-shade);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.suv {
+  background-color: var(--second-shade);
+}
+.luxury {
+  background-color: var(--third-shade);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.learn-sedan {
+  color: var(--first-shade);
+}
+.learn-suv {
+  color: var(--second-shade);
+}
+.learn-luxury {
+  color: var(--third-shade);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  .card {
+    max-width: 80%;
+    flex-direction: row;
+
+    margin: 0;
+  }
+  .description-para {
+    margin-bottom: 5rem;
+  }
+  .cartype {
+    max-width: 300px;
+    height: 100%;
+    border-radius: 0px;
+  }
+  .sedan {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .luxury {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
