@@ -75,12 +75,14 @@ body {
   font-family: Lexend Deca;
   margin-bottom: 3rem;
   font-weight: 400;
+  border: 2px var(--fifth-shade) solid;
 }
 .learn-more:hover {
   background-color: inherit;
   color: var(--fifth-shade);
   border: 2px var(--fifth-shade) solid;
   cursor: pointer;
+  transition: ease 0.5s;
 }
 
 .sedan {
